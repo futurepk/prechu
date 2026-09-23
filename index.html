@@ -1,15 +1,44 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prechu</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header id="site-header">
+      <div class="container" id="header-inner">
+        <a href="#" id="brand">
+          <img src="img/logo.png" alt="brand prechu logo" />
+          <!--Nooit p tag gebruiken in een a tag, span gebruiken-->
+          <span>Prechu</span>
+        </a>
+        <nav id="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <!--nav#navigation<ul<li*4-->
+      </div>
+    </header>
 
-    <main></main>
+    <main>
+      <section id="hero">
+        <div class="container" id="hero-inner">
+          <!--.container#hero-inner-->
+          <div id="hero-copy">
+            <h1>Lorem Ipsum is simply</h1>
+            <p>dummy text of the<br />printing &amp; typesetting</p>
+            <a id="signup" href=""><span>&#10003;</span>Sign up now</a>
+          </div>
+          <!--#hero-copy-->
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
